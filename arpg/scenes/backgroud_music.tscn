@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dvjrcwux6cmat"]
+
+[ext_resource type="AudioStream" uid="uid://cev05o2npkgwp" path="res://music/xDeviruchi - And The Journey Begins .wav" id="1_c0pla"]
+
+[node name="Backgroud_Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_c0pla")
+volume_db = -8.455
+autoplay = true
